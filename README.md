@@ -19,10 +19,9 @@ Ubuntu: sudo apt-get install git build-essential
 ```
 $ mkdir ~/src
 $ cd ~/src
-$ git clone https://github.com/Myria-de/mt7610u_wifi_sta_v3002_dpo_20130916.git
+$ git clone https://github.com/lixz789/mt7610u_wifi_sta_v3002_dpo_20130916.git
 $ make
 $ make install
-$ cp RT2870STA.dat  /etc/Wireless/RT2870STA/RT2870STA.dat
 $ reboot
 ```
 refer to：
