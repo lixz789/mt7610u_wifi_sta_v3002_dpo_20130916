@@ -34,6 +34,7 @@ $ rpi-source
 $ mkdir ~/src
 $ cd ~/src
 $ git clone https://github.com/lixz789/mt7610u_wifi_sta_v3002_dpo_20130916.git
+$ cd mt7610u_wifi_sta_v3002_dpo_20130916
 $ sudo ARCH=arm make -j4
 $ sudo ARCH=arm make installfw
 $ sudo insmod mt7610u.ko
